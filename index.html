@@ -6,63 +6,61 @@
     <title>Document</title>
 </head>
 <style>
+    #top{
+        position: fixed;
+        display: inline-block;
+        width: 100%;
+        height: 30px;
+        background-color: white;
+    }
     #a{
-        padding-left: 25px;
-        font-size: x-large;
-        width:10em;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: fixed;
+        left: 10px;
+        top: 2px;
+        font-size: large;
     }
     #b{
-        margin-top: -52px;
-        margin-left: 1100px;
-        font-size: x-large;
-        width: 4em;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: fixed;
+        left: 1200px;
+        top: 2px;
+        font-size: large;
+ 
     }
-        
-    
     #c{
-        margin-top: -52px;
-        margin-left: 1220px;
-        font-size: x-large;
-        width: 3em;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: fixed;
+        left: 1300px;
+        top: 2px;
+        font-size:large;
+
     }
     #d{
-        margin-top: -52px;
-        margin-left: 1320px;
+        position: fixed;
+        left: 1400px;
+        top: 2px;
+        font-size: large;
+
+    }
+    .title{
+        position: relative;
+        left: 650px;
+        bottom: 440px;
         font-size: x-large;
-        width: 4em;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    
-    
     #a:hover{
-        background-color: lightgrey;
-        
-    }
-   
-    #c:hover{
         background-color: lightgrey;
     }
     #b:hover{
         background-color: lightgrey;
     }
+    #c:hover{
+        background-color: lightgrey;
+    }
     #d:hover{
         background-color: lightgrey;
-        
     }
     span{
-        border: 2px solid black;
-        width: 10px;
-        height: 10px;
-        background-color: black;
+        background: black;
         color: white;
-    }
-    .title{
-        margin-top: -500px;
-        font-size: xx-large;
-        padding-left: 600px;
     }
 </style>
 <body>
@@ -72,7 +70,8 @@
         <P id="c">About</P>
         <p id="d">Contacts</p>
 
-    </div>
+    </div><br>
+    <br>
     <div>
         <img src="./architect.jpg" alt="image not found">
         <div class="title">
